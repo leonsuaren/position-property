@@ -1,0 +1,10 @@
+.main-contaniner {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 5000px;
+}
+
+.frase-style {
+  font-size: 15rem;
+}
