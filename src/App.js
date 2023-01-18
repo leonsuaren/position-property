@@ -4,6 +4,7 @@ import './App.css';
 import { Navbar } from './components/navbar';
 import { Sticky } from './views/sticky';
 import { Positioning } from './views/positioning';
+import { Relative } from './views/relative';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path='/sticky' element={<Sticky />} />
             <Route path='/positioning' element={<Positioning />} />
+            <Route path='/relative' element={<Relative />} />
           </Routes>
         </div>
       </Router>

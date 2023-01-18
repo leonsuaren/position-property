@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.css';
 
 import { PiceOfCode } from '../../components/pice-of-code';
-import { DisplayWindow } from '../../components/display-window';
 
 export const Positioning = () => {
   return (
@@ -23,13 +22,10 @@ export const Positioning = () => {
         <p className='element-name'>.element </p>
         <p><span className='opening-curly-bracket'>&#123;</span><br />
           <span className='element-property'>position: <span className='element-value'>relative;</span></span>
-          <span className='element-property'>top: <span className='element-value'>50px;</span></span>
-          <span className='element-property'>left: <span className='element-value'>50px;</span></span>
+          <span className='element-property'>top: <span className='element-value'>10px;</span></span>
           <span className='closing-curly-bracket'>&#125;</span>
         </p>
       </PiceOfCode>
-      <DisplayWindow headerTitle='CSS-Position'><div className='element-position'></div></DisplayWindow>
-      <p>On this example, the element, a violet square div, it's positionaded 10 pixels top and 10 pixels left from its parent.</p>
     </div>
   )
 }
