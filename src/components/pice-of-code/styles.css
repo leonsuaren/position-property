@@ -1,0 +1,7 @@
+.pice-of-code-container {
+  background-color: #262525;
+  display: flex;
+  width: 100%;
+  padding: 50px 50px;
+  border-radius: 10px;
+}

@@ -8,12 +8,14 @@ import { Positioning } from './views/positioning';
 function App() {
   return (
     <div className="App">
-    <Router>
-      <Navbar />
-        <Routes>
-          <Route path='/sticky' element={<Sticky />} />
-          <Route path='/positioning' element={<Positioning />} />
-        </Routes>
+      <Router>
+        <Navbar />
+        <div className='container'>
+          <Routes>
+            <Route path='/sticky' element={<Sticky />} />
+            <Route path='/positioning' element={<Positioning />} />
+          </Routes>
+        </div>
       </Router>
     </div>
   );
