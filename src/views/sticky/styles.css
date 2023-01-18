@@ -1,10 +1,15 @@
 .main-contaniner {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 5000px;
   width: 5000px;
 }
 
 .frase-style {
   font-size: 15rem;
+}
+
+.h-position {
+  position: sticky;
+  top: 200px;
 }

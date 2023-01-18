@@ -3,6 +3,7 @@ import './App.css';
 
 import { Navbar } from './components/navbar';
 import { Sticky } from './views/sticky';
+import { Positioning } from './views/positioning';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
         <Routes>
           <Route path='/sticky' element={<Sticky />} />
+          <Route path='/positioning' element={<Positioning />} />
         </Routes>
       </Router>
     </div>

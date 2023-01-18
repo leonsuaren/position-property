@@ -21,7 +21,7 @@ import './styles.css';
 export const Sticky = () => {
   return (
     <div className='main-contaniner'>
-      <h1 className='frase-style'>H</h1>
+      <h1 className='frase-style h-position'>H</h1>
       <h1 className='frase-style'>E</h1>
       <h1 className='frase-style'>L</h1>
       <h1 className='frase-style'>L</h1>
