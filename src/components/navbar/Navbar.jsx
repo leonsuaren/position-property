@@ -15,7 +15,7 @@ export const Navbar = () => {
               <Link className="nav-link active" aria-current="page"  to='/relative'>Relative</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Absolute</a>
+              <Link className="nav-link" to='/absolute'>Absolute</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Fixed</a>

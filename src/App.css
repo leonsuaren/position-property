@@ -7,6 +7,22 @@ li {
   color: #6d6c6c;
 }
 
+img {
+  width: 30%;
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.example-text {
+  font-weight: bold;
+}
+
 .code-on-paragraph {
   background-color: #6d6c6c;
   color: #e9f23e;
@@ -16,6 +32,7 @@ li {
 .element-name { 
   color: #e9f23e;
   margin-right: 20px;
+  display: block;
 }
 
 .opening-curly-bracket {
@@ -28,6 +45,8 @@ li {
 .element-property {
   color: aquamarine;
   display: block;
+  position: relative;
+  left: 50px;
 }
 
 .element-value {
