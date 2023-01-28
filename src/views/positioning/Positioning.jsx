@@ -19,8 +19,8 @@ export const Positioning = () => {
       </ul>
       <p className='example-text'>Example: </p>
       <PiceOfCode>
-        <p className='element-name'>.element </p>
-        <p><span className='opening-curly-bracket'>&#123;</span><br />
+        <p className='element-name'>.element <span className='opening-curly-bracket'>&#123;</span></p>
+        <p>
           <span className='element-property'>position: <span className='element-value'>relative;</span></span>
           <span className='element-property'>top: <span className='element-value'>10px;</span></span>
           <span className='closing-curly-bracket'>&#125;</span>

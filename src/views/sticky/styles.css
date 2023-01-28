@@ -1,15 +1,16 @@
-.main-contaniner {
-  display: flex;
-  align-items: center;
-  height: 5000px;
-  width: 5000px;
+.scroll {
+  overflow:scroll;
 }
 
-.frase-style {
-  font-size: 15rem;
+.overflow-section {
+  max-height: 450px;
+  overflow-y: auto;
 }
 
-.h-position {
+.sticky {
+  width: 100%;
+  background-color: turquoise;
+  border: 1px solid grey;
   position: sticky;
-  top: 200px;
+  top: 0;
 }

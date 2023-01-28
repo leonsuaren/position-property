@@ -1,4 +1,6 @@
 import React from 'react';
+import { PiceOfCode } from '../../components/pice-of-code';
+import { DisplayWindow } from '../../components/display-window';
 import './styles.css';
 
 /**
@@ -20,18 +22,41 @@ import './styles.css';
 
 export const Sticky = () => {
   return (
-    <div className='main-contaniner'>
-      <h1 className='frase-style h-position'>H</h1>
-      <h1 className='frase-style'>E</h1>
-      <h1 className='frase-style'>L</h1>
-      <h1 className='frase-style'>L</h1>
-      <h1 className='frase-style'>O</h1>
-      <h1 className='frase-style'> &nbsp;</h1>
-      <h1 className='frase-style'>W</h1>
-      <h1 className='frase-style'>O</h1>
-      <h1 className='frase-style'>R</h1>
-      <h1 className='frase-style'>L</h1>
-      <h1 className='frase-style'>D</h1>
+    <div className='wrapper'>
+      <h1 className='title'>Sticky</h1>
+      <p>An element with <span className='code-on-paragraph'>position: sticky;</span>  is positioned based on the user's scroll position.</p>
+      <p>A sticky element toggles between <span className='code-on-paragraph'>relative</span> and <span className='code-on-paragraph'>fixed</span>, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</p>
+      <p>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of <span className='code-on-paragraph'>top</span>, <span className='code-on-paragraph'>right</span>, <span className='code-on-paragraph'>bottom</span>, and <span className='code-on-paragraph'>left</span>. The offset does not affect the position of any other elements.</p>
+      <p className='example-text'>Example: </p>
+      <PiceOfCode>
+        <p className='element-name'>.element <span className='opening-curly-bracket'>&#123;</span></p>
+        <p>
+          <span className='element-property'>position: <span className='element-value'>sticky;</span></span>
+          <span className='element-property'>top: <span className='element-value'>0;</span></span>
+          <span className='element-property'>width: <span className='element-value'>100%;</span></span>
+          <span className='element-property'>background-color: <span className='element-value'>turquoise;</span></span>
+          <span className='closing-curly-bracket'>&#125;</span>
+        </p>
+      </PiceOfCode>
+      <DisplayWindow headerTitle='CSS-Sticky scroll'>
+        <div className='overflow-section'>
+          <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <div className="sticky">I am sticky!</div>
+          <div>
+            <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+            <p>Scroll back up to remove the stickyness.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          </div>
+        </div>
+      </DisplayWindow>
+      <p>On this example, the element, I am sticky (with a background turquoise), it's goin to sticky on top, <span className='code-on-paragraph'>top: 0;</span>, of the page as soon as it reaches the top .</p>
     </div>
   )
 }
