@@ -6,6 +6,7 @@ import { Sticky } from './views/sticky';
 import { Positioning } from './views/positioning';
 import { Relative } from './views/relative';
 import { Absolute } from './views/absolute';
+import { Footer } from './components/footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/absolute' element={<Absolute />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
     </div>
   );
