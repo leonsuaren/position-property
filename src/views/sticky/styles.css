@@ -14,3 +14,26 @@
   position: sticky;
   top: 0;
 }
+
+.divition-block {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.sticky-paragraph {
+  font-size: 3rem;
+  position: sticky;
+  top: 0;
+  display: inline;
+}
+
+.letter-e {
+  position: relative;
+  top: 513px
+}
+
+.letter-l {
+  position: relative;
+  top: 813px;
+}

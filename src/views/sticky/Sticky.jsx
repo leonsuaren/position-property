@@ -38,7 +38,7 @@ export const Sticky = () => {
           <span className='closing-curly-bracket'>&#125;</span>
         </p>
       </PiceOfCode>
-      <DisplayWindow headerTitle='CSS-Sticky scroll'>
+      <DisplayWindow headerTitle='CSS-Sticky'>
         <div className='overflow-section'>
           <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
           <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
@@ -56,7 +56,25 @@ export const Sticky = () => {
           </div>
         </div>
       </DisplayWindow>
-      <p>On this example, the element, I am sticky (with a background turquoise), it's goin to sticky on top, <span className='code-on-paragraph'>top: 0;</span>, of the page as soon as it reaches the top .</p>
+      <p>On this example, the element, I am sticky (with a background turquoise), is going to sticky on top, <span className='code-on-paragraph'>top: 0;</span>, of the page as soon as it reaches the top .</p>
+      <p>For more examples:</p>
+      <ul>
+        <li><a href='#vertical'>Vertical effect using sticky</a></li>
+        <li><a>Horizontal effect using sticky</a></li>
+      </ul>
+      <h3 className='title' id='vertical'>Vertical effect using sticky</h3>
+      <DisplayWindow headerTitle='CSS-Sticky'>
+        <div className='overflow-section'>
+          <div className='divition-block'></div>
+            <p className='sticky-paragraph'>H</p>
+            <p className='sticky-paragraph letter-e'>E</p>
+            <p className='sticky-paragraph letter-l'>L</p>
+            <p className='sticky-paragraph letter-ll'>L</p>
+            <p className='sticky-paragraph letter-o'>O</p>
+          <div className='divition-block'></div>
+        </div>
+      </DisplayWindow>
+      <p>On this example, the element, I am sticky (with a background turquoise), is going to sticky on top, <span className='code-on-paragraph'>top: 0;</span>, of the page as soon as it reaches the top .</p>
     </div>
   )
 }
