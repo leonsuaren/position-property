@@ -10,6 +10,11 @@ export const Absolute = () => {
       <h1 className='title'>Position Absolute</h1>
       <p>The element is removed from the normal document flow, and no space is created for the element in the page layout. Its final position is determined by the values of <span className='code-on-paragraph'>top</span>, <span className='code-on-paragraph'>right</span>, <span className='code-on-paragraph'>bottom</span>, and <span className='code-on-paragraph'>left</span>.</p>
       <p>An element with <span className='code-on-paragraph'>position: absolute;</span>  is positioned relative to the nearest positioned ancestor.</p>
+      <p>In other words.</p>
+      <p>
+      An absolute position, is specified reletive to the parent of the element to which the style is applied. So if you set the <span className='code-on-paragraph'>left</span> property of an element to 25px under absolute positioning, the left side of
+      the element appears 25 pixels to the right of the parent element's left edge.
+    </p>
       <p>Setting the top, right, bottom, and left properties of a absolutly-positioned element will cause it to be adjusted away from its normal position.</p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
