@@ -15,7 +15,7 @@
 
 ---
 
-  <p align='justify' markdown="1"> 
+  <p align='justify' markdown="1" style="text-align: justufy;"> 
   
   The Position property is an essential feature you should have when creating a website, therefore it's crucial to understand how position property works and how to implement it, this small but awesome project will guide you through all the different values and how to implement them within your project.</p>
 
