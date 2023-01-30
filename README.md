@@ -2,9 +2,8 @@
   <img src='public/The_Sticky_Project.png'>
 </div>
 
-<center>
 
-<div style="text-align: center;" markdown="1">
+<div style="text-align: center;" markdown="1" align='center'>
 
  **An overview of how _position property_ works and some examples.** 
 
@@ -14,10 +13,9 @@
 
  </div>
 
-</center>
 ---
 
-  <p aling='justify' markdown="1"> 
+  <p align='justify' markdown="1"> 
   
   The Position property is an essential feature you should have when creating a website, therefore it's crucial to understand how position property works and how to implement it, this small but awesome project will guide you through all the different values and how to implement them within your project.</p>
 
