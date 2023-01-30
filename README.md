@@ -8,7 +8,7 @@
 
 ---
 
-### An overview of how position property works and some examples.
+ An overview of how position property works and some examples.
 
 # Features
   * React.
