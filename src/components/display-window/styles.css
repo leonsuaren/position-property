@@ -8,6 +8,8 @@
 }
 
 .window-header {
+  display: grid;
+  grid-template-columns: 2% 2% 2% 10%;
   position: relative;
   top: 0;
   left: 0;
@@ -15,13 +17,37 @@
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-color: #262525;
-  display: flex;
+  background-color: #253237;
   padding: 0 10px;
-  align-items: flex-end;
+  align-items: center;
+  justify-items: center;
 }
 
 .window-header-title {
   color: aliceblue;
   font-size: 1rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.first-ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ff5f55;
+}
+
+.second-ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #FFBD2D;
+}
+
+.third-ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #25C93F;
 }

@@ -9,19 +9,13 @@ export const Fixed = () => {
       <h1 className='title'>Position Fixed</h1>
       
       <p className='example-text'>Example: </p>
-      <PiceOfCode>
-        <p className='element-name'>.element <span className='opening-curly-bracket'>&#123;</span></p>
-        <p>
-          <span className='element-property'>position: <span className='element-value'>fixed;</span></span>
-          <span className='element-property'>top: <span className='element-value'>0;</span></span>
-          <span className='element-property'>width: <span className='element-value'>100%;</span></span>
-          <span className='element-property'>background-color: <span className='element-value'>turquoise;</span></span>
-          <span className='closing-curly-bracket'>&#125;</span>
-        </p>
-      </PiceOfCode>
+      <p className='example-text'>CSS </p>
+      <img src='css-fixed-example.png' />
+      <p className='example-text'>HTML </p>
+      <img src='./fixedexample.png' />
       <DisplayWindow headerTitle='CSS-Sticky'>
         <div className='overflow-section'>
-          <div className="fixed-element">I am fixed!</div>
+          <p className="fixed-element">I am fixed!</p>
           <div>
             <p>In this example, the fixed element fixed to the top of the page (top: 0).</p>
             <p>Scroll down to see the fixed element.</p>

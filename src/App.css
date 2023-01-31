@@ -17,10 +17,13 @@ img {
 
 .title {
   margin-bottom: 50px;
+  text-transform: capitalize;
 }
 
 .example-text {
   font-weight: bold;
+  margin: 10px 0;
+  text-transform: uppercase;
 }
 
 .code-on-paragraph {
@@ -51,4 +54,8 @@ img {
 
 .element-value {
   color: #e9f23e;
+}
+
+img {
+  width: 80%;
 }
