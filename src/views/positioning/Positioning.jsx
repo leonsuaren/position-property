@@ -27,7 +27,7 @@ export const Positioning = () => {
         </p>
       </PiceOfCode>
       <p>
-        With the freedom of placing elements anywhere you want on a page, you can run into the problem of <i>overlap</i>, when an element takes up space anether element is using. Nothing is 
+        With the freedom of placing elements anywhere you want on a page, you can run into the problem of <i>overlap</i>, when an element takes up space another element is using. Nothing is 
         stopping you from specifying the absolute lecation af elements so that they <i>overlap</i>. In this case, <b>CSS</b> relies on the <span className='code-on-paragraph'>z-index</span> of each element to determinate which element is on the top
         and which is on the bottom.
       </p>

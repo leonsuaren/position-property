@@ -18,7 +18,7 @@ export const Navbar = () => {
               <Link className="nav-link" to='/absolute'>Absolute</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Fixed</a>
+              <Link className="nav-link" to='/fixed'>Fixed</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to='/sticky'>Sticky</Link>

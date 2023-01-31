@@ -7,6 +7,7 @@ import { Positioning } from './views/positioning';
 import { Relative } from './views/relative';
 import { Absolute } from './views/absolute';
 import { Footer } from './components/footer'
+import { Fixed } from './views/fixed';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/positioning' element={<Positioning />} />
             <Route path='/relative' element={<Relative />} />
             <Route path='/absolute' element={<Absolute />} />
+            <Route path='/fixed' element={<Fixed />} />
           </Routes>
         </div>
         <Footer />

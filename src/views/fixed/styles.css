@@ -1,0 +1,7 @@
+.fixed-element {
+  width: 100%;
+  background-color: turquoise;
+  border: 1px solid grey;
+  position: sticky;
+  top: 0;
+}
