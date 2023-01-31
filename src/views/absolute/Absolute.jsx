@@ -12,49 +12,34 @@ export const Absolute = () => {
       <p>An element with <span className='code-on-paragraph'>position: absolute;</span>  is positioned relative to the nearest positioned ancestor.</p>
       <p>In other words.</p>
       <p>
-      An absolute position, is specified reletive to the parent of the element to which the style is applied. So if you set the <span className='code-on-paragraph'>left</span> property of an element to 25px under absolute positioning, the left side of
+        An absolute position, is specified reletive to the parent of the element to which the style is applied. So if you set the <span className='code-on-paragraph'>left</span> property of an element to 25px under absolute positioning, the left side of
       the element appears 25 pixels to the right of the parent element's left edge.
     </p>
       <p>Setting the top, right, bottom, and left properties of a absolutly-positioned element will cause it to be adjusted away from its normal position.</p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
-      <PiceOfCode>
-        <img src='./relative-html.png' />
-      </PiceOfCode>
+      <img src='/relativehtmlexample.png' />
       <p className='example-text'>CSS: </p>
-      <PiceOfCode>
-        <p className='element-name'>.element <span className='opening-curly-bracket'>&#123;</span></p>
-        <p>
-          <span className='element-property'>position: <span className='element-value'>absolute;</span></span>
-          <span className='closing-curly-bracket'>&#125;</span>
-        </p>
-      </PiceOfCode>
+      <img src='/absolutehtmlexample.png' />
       <DisplayWindow headerTitle='CSS-Position'>
         <div className='parent-element'>
-          <div className='child-element'></div>
+          <div className='child-element' />
         </div>
       </DisplayWindow>
       <p>On the example above, the element, a violet square div, it's positionaded 0 pixels top and 0 pixels left from its original position, since its nearest positioned ancestor is the document.</p>
       <p className='example-text'>Example Two: </p>
       <p className='example-text'>HTML: </p>
-      <PiceOfCode>
-        <img src='./absolute-parent.png' />
-      </PiceOfCode>
+        <img src='/absolutehtmlsecondexample.png' />
       <p className='example-text'>CSS: </p>
-      <PiceOfCode>
-        <p className='element-name'>.element <span className='opening-curly-bracket'>&#123;</span></p>
-        <p>
-          <span className='element-property'>position: <span className='element-value'>absolute;</span></span>
-          <span className='closing-curly-bracket'>&#125;</span>
-        </p>
-      </PiceOfCode>
+        <img src='/absolutecsssecondexample.png' />
       <DisplayWindow headerTitle='CSS-Position'>
         <div className='window-wrapper'>
-        <div className='parent-with-child'></div>
-        <div className='element-with-parent'></div>
+          <div className='parent-with-child'> Parent
+          <div className='element-with-parent'>Child</div>
+          </div>
         </div>
       </DisplayWindow>
-      <p>On the example above, the element, a violet square div, it's positionaded 0 pixels top and 0 pixels left from its original position, since its nearest positioned ancestor is the document.</p>
+      <p>On the this example, the element child is positionated 50px bottom and 50px left relative to its parent. </p>
     </div>
   )
 }
