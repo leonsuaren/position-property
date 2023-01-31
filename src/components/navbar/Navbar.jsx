@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export const Navbar = () => {
+  const params = useLocation();
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -12,16 +14,16 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page"  to='/relative'>Relative</Link>
+              <Link to='/relative' className={params.pathname === '/relative' ? 'nav-link active-page' : 'nav-link'}>Relative</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to='/absolute'>Absolute</Link>
+              <Link className={params.pathname === '/absolute' ? 'nav-link active-page' : 'nav-link'} to='/absolute'>Absolute</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to='/fixed'>Fixed</Link>
+              <Link className={params.pathname === '/fixed' ? 'nav-link active-page' : 'nav-link'} to='/fixed'>Fixed</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to='/sticky'>Sticky</Link>
+              <Link className={params.pathname === '/sticky' ? 'nav-link active-page' : 'nav-link'} to='/sticky'>Sticky</Link>
             </li>
           </ul>
         </div>
