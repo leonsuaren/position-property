@@ -7,6 +7,12 @@ li {
   color: #6d6c6c;
 }
 
+a {
+  text-decoration: none;
+  color: #2d2c2c;
+  font-weight: bold;
+}
+
 img {
   width: 30%;
 }

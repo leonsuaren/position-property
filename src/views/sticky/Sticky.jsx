@@ -28,16 +28,10 @@ export const Sticky = () => {
       <p>A sticky element toggles between <span className='code-on-paragraph'>relative</span> and <span className='code-on-paragraph'>fixed</span>, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</p>
       <p>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of <span className='code-on-paragraph'>top</span>, <span className='code-on-paragraph'>right</span>, <span className='code-on-paragraph'>bottom</span>, and <span className='code-on-paragraph'>left</span>. The offset does not affect the position of any other elements.</p>
       <p className='example-text'>Example: </p>
-      <PiceOfCode>
-        <p className='element-name'>.element <span className='opening-curly-bracket'>&#123;</span></p>
-        <p>
-          <span className='element-property'>position: <span className='element-value'>sticky;</span></span>
-          <span className='element-property'>top: <span className='element-value'>0;</span></span>
-          <span className='element-property'>width: <span className='element-value'>100%;</span></span>
-          <span className='element-property'>background-color: <span className='element-value'>turquoise;</span></span>
-          <span className='closing-curly-bracket'>&#125;</span>
-        </p>
-      </PiceOfCode>
+      <p className='example-text'>HTML: </p>
+      <img src='/htmlstickyexample.png' />
+      <p className='example-text'>CSS: </p>
+      <img src='/stickycodeexample.png' />
       <DisplayWindow headerTitle='CSS-Sticky'>
         <div className='overflow-section'>
           <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
@@ -60,18 +54,76 @@ export const Sticky = () => {
       <p>For more examples:</p>
       <ul>
         <li><a href='#vertical'>Vertical effect using sticky</a></li>
-        <li><a>Horizontal effect using sticky</a></li>
+        <li><a href='#horizontal'>Horizontal effect using sticky</a></li>
       </ul>
       <h3 className='title' id='vertical'>Vertical effect using sticky</h3>
+      <p>Scroll down to see the effect!</p>
       <DisplayWindow headerTitle='CSS-Sticky'>
         <div className='overflow-section'>
           <div className='divition-block'></div>
-            <p className='sticky-paragraph'>H</p>
-            <p className='sticky-paragraph letter-e'>E</p>
-            <p className='sticky-paragraph letter-l'>L</p>
-            <p className='sticky-paragraph letter-ll'>L</p>
-            <p className='sticky-paragraph letter-o'>O</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'>H</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>H</span>E</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HE</span>L</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HEL</span>L</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELL</span>O</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO </span>W</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO W</span>O</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO WO</span>R</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO WOR</span>L</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO WORL</span>D</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO WORLD</span>!</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO WORLD!</span>!</p>
+          <div className='gap' />
+          <p className='sticky-paragraph'><span className='hide-letter'>HELLO WORLD!!</span>!</p>
           <div className='divition-block'></div>
+        </div>
+      </DisplayWindow>
+      <h3 className='title' id='horizontal'>Horizontal effect using sticky</h3>
+      <p>Scroll to the right to see the effect!</p>
+      <DisplayWindow headerTitle='CSS-Sticky'>
+        <div className='overflow-section-vertical'>
+          <div className='overflow-content'>
+            <div className='divition-block-vertical'></div>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'>H</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>H</span>E</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HE</span>L</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HEL</span>L</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELL</span>O</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO </span>W</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO W</span>O</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO WO</span>R</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO WOR</span>L</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO WORL</span>D</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO WORLD</span>!</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO WORLD!</span>!</p>
+            <div className='gap-vertical' />
+            <p className='sticky-paragraph-vertical'><span className='hide-letter'>HELLO WORLD!!</span>!</p>
+            <div className='divition-block-vertical'></div>
+          </div>
         </div>
       </DisplayWindow>
       <p>On this example, the element, I am sticky (with a background turquoise), is going to sticky on top, <span className='code-on-paragraph'>top: 0;</span>, of the page as soon as it reaches the top .</p>

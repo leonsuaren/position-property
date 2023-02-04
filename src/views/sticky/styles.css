@@ -28,7 +28,7 @@
   display: inline;
 }
 
-.letter-e {
+/* .letter-e {
   position: relative;
   top: 513px
 }
@@ -36,4 +36,40 @@
 .letter-l {
   position: relative;
   top: 813px;
+} */
+
+.gap {
+  height: 600px;
+}
+
+.hide-letter {
+  opacity: 0;
+}
+
+.divition-block-vertical {
+  height: 100%;
+  width: 800px;
+}
+
+.overflow-section-vertical {
+  max-height: 450px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.overflow-content {
+  display: flex;
+  width: 20000px;
+  height: 600px;
+}
+
+.gap-vertical {
+  min-width: 1000px;
+}
+
+.sticky-paragraph-vertical {
+  font-size: 3rem;
+  position: sticky;
+  left: 0;
+  display: inline;
 }
