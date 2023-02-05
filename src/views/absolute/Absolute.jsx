@@ -40,6 +40,19 @@ export const Absolute = () => {
         </div>
       </DisplayWindow>
       <p>On the this example, the element child is positionated 50px bottom and 50px left relative to its parent. </p>
+      <p>Absolute Position moves the element in relation to its original position but it does not affect any other element just lieves an empty space.</p>
+      <p className='example-text'>Example: </p>
+      <p className='example-text'>HTML: </p>
+      <img src='/relativeexamplenospace.png' />
+      <p className='example-text'>CSS: </p>
+      <img src='/cssexampleabsolutenospace.png' />
+      <DisplayWindow headerTitle='CSS-Position'>
+        <div className="parent">
+          <div className="child">div 1</div>
+          <div className="child child-two-absolute">div 2</div>
+          <div className="child">div 3</div>
+        </div>
+      </DisplayWindow>
     </div>
   )
 }

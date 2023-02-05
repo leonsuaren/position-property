@@ -126,7 +126,6 @@ export const Sticky = () => {
           </div>
         </div>
       </DisplayWindow>
-      <p>On this example, the element, I am sticky (with a background turquoise), is going to sticky on top, <span className='code-on-paragraph'>top: 0;</span>, of the page as soon as it reaches the top .</p>
     </div>
   )
 }
