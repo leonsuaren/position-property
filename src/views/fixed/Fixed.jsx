@@ -1,5 +1,4 @@
 import React from 'react';
-import { PiceOfCode } from '../../components/pice-of-code';
 import { DisplayWindow } from '../../components/display-window';
 import './styles.css';
 
@@ -16,9 +15,9 @@ export const Fixed = () => {
       </p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>CSS </p>
-      <img src='css-fixed-example.png' />
+      <img alt='...' src='css-fixed-example.png' />
       <p className='example-text'>HTML </p>
-      <img src='./fixedexample.png' />
+      <img alt='...' src='./fixedexample.png' />
       <DisplayWindow headerTitle='CSS-Sticky'>
         <div className='overflow-section'>
           <p className="fixed-element">I am fixed!</p>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { PiceOfCode } from '../../components/pice-of-code';
 import { DisplayWindow } from '../../components/display-window';
 import './styles.css';
 
@@ -29,9 +28,9 @@ export const Sticky = () => {
       <p>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of <span className='code-on-paragraph'>top</span>, <span className='code-on-paragraph'>right</span>, <span className='code-on-paragraph'>bottom</span>, and <span className='code-on-paragraph'>left</span>. The offset does not affect the position of any other elements.</p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
-      <img src='/htmlstickyexample.png' />
+      <img alt='...' src='/htmlstickyexample.png' />
       <p className='example-text'>CSS: </p>
-      <img src='/stickycodeexample.png' />
+      <img alt='...' src='/stickycodeexample.png' />
       <DisplayWindow headerTitle='CSS-Sticky'>
         <div className='overflow-section'>
           <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>

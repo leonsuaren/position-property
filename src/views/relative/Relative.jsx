@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-import { PiceOfCode } from '../../components/pice-of-code';
 import { DisplayWindow } from '../../components/display-window';
 
 export const Relative = () => {
@@ -20,17 +19,17 @@ export const Relative = () => {
       <p>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.</p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
-      <img src='/relativehtmlexample.png' />
+      <img src='/relativehtmlexample.png' alt='...'/>
       <p className='example-text'>CSS: </p>
-      <img src='/realtivecssexample.png' />
+      <img src='/realtivecssexample.png' alt='...'/>
       <DisplayWindow headerTitle='CSS-Position'><div className='element-position'></div></DisplayWindow>
       <p>On this example, the element, a violet square div, it's positionaded 50 pixels top and 50 pixels left from its original position.</p>
       <p>Relative Position moves the element in relation to its original position but it does not affect any other element just lieves an empty space.</p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
-      <img src='/relativeexamplenospace.png' />
+      <img src='/relativeexamplenospace.png' alt='...'/>
       <p className='example-text'>CSS: </p>
-      <img src='/relativeexamplenostace.png' />
+      <img src='/relativeexamplenostace.png' alt='...'/>
       <DisplayWindow headerTitle='CSS-Position'>
         <div className="parent">
           <div className="child">div 1</div>

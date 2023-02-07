@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-import { PiceOfCode } from '../../components/pice-of-code';
 import { DisplayWindow } from '../../components/display-window';
 
 export const Absolute = () => {
@@ -18,9 +17,9 @@ export const Absolute = () => {
       <p>Setting the top, right, bottom, and left properties of a absolutly-positioned element will cause it to be adjusted away from its normal position.</p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
-      <img src='/relativehtmlexample.png' />
+      <img alt='...' src='/relativehtmlexample.png' />
       <p className='example-text'>CSS: </p>
-      <img src='/absolutehtmlexample.png' />
+      <img alt='...' src='/absolutehtmlexample.png' />
       <DisplayWindow headerTitle='CSS-Position'>
         <div className='parent-element'>
           <div className='child-element' />
@@ -29,9 +28,9 @@ export const Absolute = () => {
       <p>On the example above, the element, a violet square div, it's positionaded 0 pixels top and 0 pixels left from its original position, since its nearest positioned ancestor is the document.</p>
       <p className='example-text'>Example Two: </p>
       <p className='example-text'>HTML: </p>
-        <img src='/absolutehtmlsecondexample.png' />
+        <img alt='...' src='/absolutehtmlsecondexample.png' />
       <p className='example-text'>CSS: </p>
-        <img src='/absolutecsssecondexample.png' />
+        <img alt='...' src='/absolutecsssecondexample.png' />
       <DisplayWindow headerTitle='CSS-Position'>
         <div className='window-wrapper'>
           <div className='parent-with-child'> Parent
@@ -40,16 +39,18 @@ export const Absolute = () => {
         </div>
       </DisplayWindow>
       <p>On the this example, the element child is positionated 50px bottom and 50px left relative to its parent. </p>
-      <p>Absolute Position moves the element in relation to its original position but it does not affect any other element just lieves an empty space.</p>
+      <p>An element with a position absolute does not have a default width of 100% like a block element normally would, it is only as width as its content, also the browsers does not position
+        the element relative to its original location as it did with relative positioning, the position set absolutly inside the first containing element that does not have a position of static
+      </p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
-      <img src='/relativeexamplenospace.png' />
+      <img alt='...' src='/relativeexamplenospace.png' />
       <p className='example-text'>CSS: </p>
-      <img src='/cssexampleabsolutenospace.png' />
+      <img alt='...' src='/cssexampleabsolutenospace.png' />
       <DisplayWindow headerTitle='CSS-Position'>
         <div className="parent">
           <div className="child">div 1</div>
-          <div className="child child-two-absolute">div 2</div>
+          <div className="child-two-absolute">div 2, position absolute</div>
           <div className="child">div 3</div>
         </div>
       </DisplayWindow>

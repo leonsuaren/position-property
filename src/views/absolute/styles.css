@@ -48,6 +48,10 @@
 
 .child-two-absolute {
   position: absolute;
-  top: 6275px;
-  left: 63px;
+  top: 6302px;
+  left: 161px;
+  height: 100px;
+  border: 1px solid rgb(170, 76, 76);
+  background-color: rgb(204, 218, 141);
+  margin: 10px;
 }
