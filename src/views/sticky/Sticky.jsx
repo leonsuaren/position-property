@@ -24,7 +24,7 @@ export const Sticky = () => {
     <div className='wrapper'>
       <h1 className='title'>Position Sticky</h1>
       <p>An element with <span className='code-on-paragraph'>position: sticky;</span>  is positioned based on the user's scroll position.</p>
-      <p>A sticky element toggles between <span className='code-on-paragraph'>relative</span> and <span className='code-on-paragraph'>fixed</span>, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</p>
+      <p>A sticky element toggles between <span className='code-on-paragraph'>relative</span> and <span className='code-on-paragraph'>fixed</span>, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position: fixed).</p>
       <p>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of <span className='code-on-paragraph'>top</span>, <span className='code-on-paragraph'>right</span>, <span className='code-on-paragraph'>bottom</span>, and <span className='code-on-paragraph'>left</span>. The offset does not affect the position of any other elements.</p>
       <p className='example-text'>Example: </p>
       <p className='example-text'>HTML: </p>
@@ -49,7 +49,7 @@ export const Sticky = () => {
           </div>
         </div>
       </DisplayWindow>
-      <p>On this example, the element, I am sticky (with a background turquoise), is going to sticky on top, <span className='code-on-paragraph'>top: 0;</span>, of the page as soon as it reaches the top .</p>
+      <p>In this example, the element, I am sticky (with a background turquoise), is going to sticky on top, <span className='code-on-paragraph'>top: 0;</span> of the page as soon as it reaches the top.</p>
       <p>For more examples:</p>
       <ul>
         <li><a href='#vertical'>Vertical effect using sticky</a></li>
