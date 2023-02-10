@@ -9,7 +9,7 @@
 
 
 ![npm](https://img.shields.io/npm/v/npm)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/leonsuaren/sticky-property?color=f)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/leonsuaren/position-property?color=f)
 
  </div>
 
@@ -17,7 +17,7 @@
 
   <p align='justify' markdown="1" style="text-align: justufy;"> 
   
-  The Position property is an essential feature you should have when creating a website, therefore it's crucial to understand how position property works and how to implement it, this small but awesome project will guide you through all the different values and how to implement them within your project.</p>
+  The Position Property is an essential feature you should have when creating a website, therefore it's crucial to understand how position property works and how to implement it. This small but awesome project will guide you through all the different values and how to implement them within your project.</p>
 
 # Features
   * React.
@@ -28,8 +28,8 @@ This project was created using the command `npx create-react-app`, node version 
 # Installation
 
 ```
-$ git clone https://github.com/leonsuaren/sticky-property.git
-$ cd sticky-property
+$ git clone https://github.com/leonsuaren/position-property.git
+$ cd position-property
 $ npm install
 $ npm start
 ```
