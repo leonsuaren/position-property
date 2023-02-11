@@ -16,8 +16,9 @@ function App() {
         <Navbar />
         <div className='container'>
           <Routes>
+            <Route path='/' element={<Positioning />} />
+            <Route path='/position-property' element={<Positioning />} />
             <Route path='/sticky' element={<Sticky />} />
-            <Route path='/positioning' element={<Positioning />} />
             <Route path='/relative' element={<Relative />} />
             <Route path='/absolute' element={<Absolute />} />
             <Route path='/fixed' element={<Fixed />} />
