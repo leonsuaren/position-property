@@ -1,0 +1,58 @@
+.wrapper {
+  margin: 50px 0;
+}
+
+.inner-container {
+  height: 1500px;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.fecenote-content {
+  overflow: scroll;
+  height: 500px;
+}
+
+.menu {
+  background-color: rgb(221, 224, 222);
+  grid-column: 1 / 7;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-items: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.menu-element-one {
+  grid-column: 4 / 5;
+}
+
+.menu-element-two {
+  grid-column: 5 / 6;
+}
+
+.menu-element-three {
+  grid-column: 6 / 7;
+}
+
+.menu-element-four {
+  grid-column: 7 / 8;
+}
+
+.blur {
+  font-size: 1.1rem;
+  color: transparent;
+  text-shadow: 0 0 8px #000;
+}
+
+.avatar {
+  background-color: rgb(221, 224, 222);
+  grid-column: 1 / 1;
+  grid-row: 2 / 6;
+}

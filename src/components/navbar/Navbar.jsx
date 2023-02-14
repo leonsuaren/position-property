@@ -25,6 +25,9 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link className={params.pathname === '/sticky' ? 'nav-link active-page' : 'nav-link'} to='/sticky'>Sticky</Link>
             </li>
+            <li className="nav-item">
+              <Link className={params.pathname === '/practical-cases' ? 'nav-link active-page' : 'nav-link'} to='/practical-cases'>Practical Cases</Link>
+            </li>
           </ul>
         </div>
       </div>
