@@ -154,7 +154,7 @@ export const PracticalCases = () => {
                 </div> :
                 <div className='sticky-banner-wrapper'>
                   <div className='sticky-square-banner'>
-                    <p className='description-paragraph-text-fixed'><BsQuestionLg className='banner'/></p>
+                    <p className='description-paragraph-text-fixed'><BsQuestionLg className='banner' /></p>
                   </div>
                 </div>
             }
@@ -180,7 +180,16 @@ export const PracticalCases = () => {
             <div className='section-ten'>
               <p className='description-paragraph-text blur'>Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod.</p>
             </div>
-            <div className='section-eleven'/>
+            <div className='section-eleven' />
+            <div className='temp-relative'>
+              <p className='description-paragraph-text blur'>Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod.</p>
+            </div>
+            <div className='temp-sticky'>
+              <p className='description-paragraph-text blur'>Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod.  Officia do laboris commodo culpa sunt eiusmod.  Officia do laboris commodo culpa sunt eiusmod.  Officia do laboris commodo culpa sunt eiusmod.</p>
+            </div>
+            <div className='temp-absolute'>
+              <p className='description-paragraph-text blur'>Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod. Ullamco ullamco aliquip commodo do enim ex dolore. Officia do laboris commodo culpa sunt eiusmod.  Officia do laboris commodo culpa sunt eiusmod.  Officia do laboris commodo culpa sunt eiusmod.  Officia do laboris commodo culpa sunt eiusmod.</p>
+            </div>
             <div className='footer-section'></div>
           </div>
         </div>
